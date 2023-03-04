@@ -1,27 +1,49 @@
-# MidjourneyPromptGenerator
+# MidJourney Prompt Generator
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.5.
+This is a mid-journey prompt generator built with Angular. It provides users with a series of prompts to help them reflect on their journey and make adjustments to their goals.
 
-## Development server
+## Getting Started
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+To get started with the project, clone the repository to your local machine:
+```
+git clone https://github.com/prettyprompt/midjourney-prompt-generator.git
+```
+Next, navigate to the project directory and install the necessary dependencies:
+```
+cd mid-journey-prompt-generator
+npm install
+```
 
-## Code scaffolding
+Finally, start the development server:
+```
+ng serve
+```
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Open your browser and navigate to `http://localhost:4200/` to see the app in action.
 
-## Build
+## Usage
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+To use the mid-journey prompt generator, simply click the "Generate Prompt" button. The app will display a random prompt for the user to reflect on.
 
-## Running unit tests
+## Contributing
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Contributions are welcome! To contribute to the project, fork the repository and create a new branch for your feature or bug fix:
+```
+git checkout -b feature/your-feature-name
+```
 
-## Running end-to-end tests
+Make your changes and commit them with a descriptive message:
+```
+git commit -m "Add your descriptive commit message here"
+```
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Push your changes to your fork:
+```
+git push origin feature/your-feature-name
+```
 
-## Further help
+Finally, create a pull request to the main repository with your changes.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
