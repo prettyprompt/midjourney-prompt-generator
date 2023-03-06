@@ -1,0 +1,23 @@
+
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+
+  .logo{
+    margin-top: -200px;
+  }
+
+  .announce{
+    border: 2px solid;
+    padding: 20px;
+  }
+
+  
+  a{
+   text-decoration:none;
+  }
